@@ -1,0 +1,31 @@
+body, html {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: orange;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+p.code {
+  font-family: monospace;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.articles-table {
+  margin: 30px auto;
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
